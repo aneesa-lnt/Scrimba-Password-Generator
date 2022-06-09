@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+   <div>
+   <h1>Generate a <br> <span class="rand-pass">random password</h1>
+  
+   <p>Never use an insecure password again</p>
+   </div> 
+      
+    <div>
+    <button class="gen-btn" onclick="genPass()">⚡ generate passwords</button>
+    </div>
+    
+<input type="number" name="pass-length" id="pass-length" placeholder="Enter password length"
+/>
+
+    <hr>
+
+    <div class="abc"> 
+    <button class="pass1" id="pass-one"></button>
+    <button class="copy1" onclick="copyPassOne()" id="pass-one-copy">copy</button>
+
+    <button class="pass2" id="pass-two"></button>
+    <button class="copy2" onclick="copyPassTwo()" id="pass-two-copy">copy</button>
+
+    <button class="pass3" id="pass-three"></button>
+    <button class="copy3" onclick="copyPassThree()">copy</button>
+
+    <button class="pass4" id="pass-four"></button>
+    <button class="copy4" onclick="copyPassFour()">copy</button>
+
+    </div>
+
+
+
+    <script src = "script.js"></script>
+    </script>
+  </body>
+</html>
